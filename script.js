@@ -11,13 +11,13 @@ function fun(){
   let timeZone = today.getTimezoneOffset()/60;
 
 
-  let year = -today.getFullYear() + birthDate.getFullYear();
-  let months = -today.getMonth() + birthDate.getMonth();
+  let year = birthDate.getFullYear()-today.getFullYear();
+  let months = birthDate.getMonth()-today.getMonth();
   
-  let days = -today.getDate() + birthDate.getDate();
-  let hours = -today.getHours() + birthDate.getHours()+timeZone;;
-  let minutes = -today.getMinutes() + birthDate.getMinutes();
-  let seconds = -today.getSeconds() + birthDate.getSeconds();
+  let days = birthDate.getDate()-today.getDate();
+  let hours = birthDate.getHours()+timeZone-today.getHours();
+  let minutes = birthDate.getMinutes()-today.getMinutes();
+  let seconds = birthDate.getSeconds()-today.getSeconds();
   
 
   //conditions
