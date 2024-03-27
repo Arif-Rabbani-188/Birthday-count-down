@@ -1,6 +1,7 @@
 let birthDay = document.getElementById('bday');
 let button = document.querySelector('input[type="button"]');
 let result = document.getElementById('result');
+let name = document.getElementById('name');
 
 
 function fun(){

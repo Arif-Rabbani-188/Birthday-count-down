@@ -1,4 +1,39 @@
-html {
-  height: 100%;
-  width: 100%;
+.container{
+  margin: 0 auto;
+  background-color: gray;
+  height:80vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#input{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 90vmin;
+  width: 90vmin;
+}
+.card, #dtf{
+  background-color: gray;
+  margin-top: 1vmin;
+  margin-left: 4.5vmin;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  height: 10vmin;
+  width: 80vmin;
+}
+#dtf{
+  background-color: black;
+  height: 10vmin;
+  width: 80vmin;
+}
+#bday,#btn, #name{
+  font-size: 4vmin;
+  height: 7vmin;
+  width: 50vmin; 
+}
+h1{
+  text-align: center;
+  font-size: 10vmin;
 }

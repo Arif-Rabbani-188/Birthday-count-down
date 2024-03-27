@@ -5,15 +5,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-  <input type="date" id="bday"/>
-  <input type="button" value ="click me" />
-  <h1 id="result"></h1>
+  <h1><u>Birthday CountDown</u> </h1>
   
+  <div class="container">
+    <div id="input">
+      <div class="card" id="nam">       
+  <input type="text" id="name" placeholder="Your Name"/>
+      </div>
+      <div id="dtf">
+      <p>Please Enter your Date of Birth:</p>  
+      </div>
+    <div class="card" id="date">
+  <input type="date" id="bday" placeholder="Date of Birth"/>
+      </div>
+    <div class="card">
+  <input type="button" value ="click me" id="btn" />
+      </div>
+    <div class="card">
+  <p id="result"></p>
+      </div>
+      
+      </div>
+      
   
+  </div>
   <script src="script.js"></script>
 </body>
 
